@@ -1,0 +1,629 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Josefin+Sans:wght@600&family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap");
+
+.main {
+  background-image: url("images/banner.png");
+  background-repeat: no-repeatn;
+  background-size: cover;
+  min-height: 800px;
+  margin-bottom: 64px;
+}
+
+header {
+  padding-top: 16px;
+}
+
+header .navbar {
+  color: #9da0b7;
+}
+header .navbar .btns {
+  background-color: #dc84fc66;
+  color: #dc84fc;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-right: 40px;
+  border: 2px solid #dc84fc;
+  border-radius: 5px;
+}
+
+.container .hero-text {
+  color: #029894;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-top: 70px;
+}
+
+.container .hero-para {
+  color: #09114a;
+  font-size: 50px;
+  line-height: 62px;
+  font-weight: 600;
+}
+
+.container .hero-btn {
+  background-color: #029894;
+  padding: 10px 30px;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #029894;
+  margin-top: 20px;
+}
+
+.hero-btn:hover {
+  background-color: white;
+  color: #9da0b7;
+  border: 1px solid #9da0b7;
+  border-radius: 5px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
+header .logo {
+  margin-right: 15px;
+}
+
+header .search-form {
+  width: 350px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+}
+
+header .search-form i {
+  color: #9da0b7;
+}
+
+header .search-form form {
+  width: 100%;
+}
+
+header .search-form input[type="text"] {
+  border: 0;
+  background: none;
+  width: 100%;
+  margin: 0 0 0 10px;
+  color: rgb(9 17 74 / 40%);
+  outline: none;
+  display: block;
+}
+
+header .social-media-icons a {
+  margin-right: 5px;
+}
+
+.social-media-icons i {
+  color: rgba(2, 152, 148, 1);
+}
+
+.services {
+  background: rgba(2, 152, 148, 0.15);
+  color: rgba(2, 152, 148, 1);
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  /* width: 100px; */
+  border-radius: 5px;
+}
+.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon {
+  font-size: 10px;
+}
+.des {
+  color: rgba(111, 118, 168, 1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-header img {
+  width: 76px;
+  height: 76px;
+  margin-right: 20px;
+}
+
+.card {
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.card-header {
+  background: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+h5.card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+p.card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  color: #6f76a8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.mt-55 {
+  margin-top: 55px !important;
+}
+
+/* Services Section */
+
+#services {
+  text-align: center;
+  margin-top: 103px;
+}
+
+#services h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #09114a;
+  margin-bottom: 11px;
+}
+
+#services h3 {
+  background: rgba(2, 152, 148, 0.15);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #029894;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  margin-bottom: 14px;
+  display: inline-block;
+}
+
+#services p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6f76a8;
+  margin-bottom: 19px;
+}
+
+#services .service-box {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#services .service-box .dark-layer {
+  background: none;
+  border-radius: 10px;
+  margin: 11.33px 10.5px;
+  padding: 30px;
+  min-height: 426.33px;
+}
+
+#services .service-box h4 {
+  text-align: left;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #09114a;
+}
+
+#services .service-box p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  color: #6f76a8;
+  min-height: 250px;
+}
+
+#services .col-md-4:first-child .service-box {
+  background: none;
+  background-size: cover !important;
+}
+
+#services .col-md-4:first-child:hover .service-box {
+  background: url(images/business-approach-bg.jpg) no-repeat center top;
+  min-height: 449px;
+}
+
+#services .col-md-4:first-child:hover .service-box .dark-layer {
+  background: rgb(0 0 0 / 70%);
+}
+
+#services .col-md-4:first-child:hover .service-box h4 {
+  color: #ffffff;
+}
+
+#services .col-md-4:first-child:hover .service-box p {
+  color: #ffffff;
+}
+
+#services .col-md-4:nth-child(2) .service-box {
+  background: none;
+  background-size: cover !important;
+}
+
+#services .col-md-4:nth-child(2):hover .service-box {
+  background: url(images/it-support.jpg) no-repeat center top;
+  min-height: 449px;
+}
+
+#services .col-md-4:nth-child(2):hover .service-box .dark-layer {
+  background: rgb(0 0 0 / 70%);
+}
+
+#services .col-md-4:nth-child(2):hover .service-box h4 {
+  color: #ffffff;
+}
+
+#services .col-md-4:nth-child(2):hover .service-box p {
+  color: #ffffff;
+}
+
+#services .col-md-4:nth-child(3) .service-box {
+  background: none;
+  background-size: cover !important;
+}
+
+#services .col-md-4:nth-child(3):hover .service-box {
+  background: url(images/logistics-warehousing.png) no-repeat center top;
+  min-height: 449px;
+}
+
+#services .col-md-4:nth-child(3):hover .service-box .dark-layer {
+  background: rgb(0 0 0 / 70%);
+}
+
+#services .col-md-4:nth-child(3):hover .service-box h4 {
+  color: #ffffff;
+}
+
+#services .col-md-4:nth-child(3):hover .service-box p {
+  color: #ffffff;
+}
+
+#services .col-md-4:nth-child(4) .service-box {
+  background: none;
+  background-size: cover !important;
+}
+
+#services .col-md-4:nth-child(4):hover .service-box {
+  background: url(images/electrical-\ engineering.jpg) no-repeat center top;
+  min-height: 449px;
+}
+
+#services .col-md-4:nth-child(4):hover .service-box .dark-layer {
+  background: rgb(0 0 0 / 70%);
+}
+
+#services .col-md-4:nth-child(4):hover .service-box h4 {
+  color: #ffffff;
+}
+
+#services .col-md-4:nth-child(4):hover .service-box p {
+  color: #ffffff;
+}
+
+#services .col-md-4:nth-child(5) .service-box {
+  background: none;
+  background-size: cover !important;
+}
+
+#services .col-md-4:nth-child(5):hover .service-box {
+  background: url(images/renewable-energy.jpg) no-repeat center top;
+  min-height: 449px;
+}
+
+#services .col-md-4:nth-child(5):hover .service-box .dark-layer {
+  background: rgb(0 0 0 / 70%);
+}
+
+#services .col-md-4:nth-child(5):hover .service-box h4 {
+  color: #ffffff;
+}
+
+#services .col-md-4:nth-child(5):hover .service-box p {
+  color: #ffffff;
+}
+
+#services .col-md-4:last-child .service-box {
+  background: none;
+  background-size: cover !important;
+}
+
+#services .col-md-4:last-child:hover .service-box {
+  background: url(images/mechanical-engineering.jpg) no-repeat center top;
+  min-height: 449px;
+}
+
+#services .col-md-4:last-child:hover .service-box .dark-layer {
+  background: rgb(0 0 0 / 70%);
+}
+
+#services .col-md-4:last-child:hover .service-box h4 {
+  color: #ffffff;
+}
+
+#services .col-md-4:last-child:hover .service-box p {
+  color: #ffffff;
+}
+
+.lm-btn {
+  display: flex;
+  align-items: center;
+}
+
+.lm-btn span {
+  background: #029894;
+  border-radius: 5px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 14px;
+}
+
+a.learn-more:link,
+a.learn-more:visited,
+a.learn-more:active {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #09114a;
+}
+
+#services .col-md-4:hover .service-box a.learn-more {
+  color: #ffffff;
+}
+
+/* Who We Are Section */
+
+#who-we-are {
+  text-align: center;
+}
+
+#who-we-are h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #09114a;
+  margin-bottom: 11px;
+}
+
+#who-we-are h3 {
+  background: rgba(2, 152, 148, 0.15);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #029894;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  margin-bottom: 14px;
+  display: inline-block;
+}
+
+#who-we-are p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6f76a8;
+  margin-bottom: 19px;
+}
+
+/* Quratulain*/
+
+/* our company and goal and vision styling*/
+/* wrpper_us_section {
+  height: 1513.27px;
+  width: 1512px;
+} */
+.company-wrapper{
+  background-image: url('./images/IMAGE (5).png');
+  background-size: cover;
+
+}
+.line-height{
+  line-height: 30px;
+}
+/* #wrpper_details {
+  padding: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row-reverse;
+  background-image: url(./images/about-backgrund.jpg);
+}
+#wrpper_details img {
+  height: 100%;
+  width: 100%;
+}
+
+#wrpper_para p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 53px;
+  margin: 25px;
+  color: #6f76a8;
+}
+*/
+.company-wrapper h3 {
+  background: rgba(2, 152, 147, 0.416);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #029894;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  margin-bottom: 14px;
+  display: inline-block;
+
+}
+.goal-img , .comapny-img {
+  max-width: 55vw !important;
+  max-height: 55vh !important;
+} 
+
+/*
+#wrpper_details #wrpper_para h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Cabin";
+  font-size: 40px;
+  font-style: normal;
+
+  margin-top: 25px;
+  color: #09114a;
+  margin-bottom: 25px;
+  margin-left: 20px;
+} 
+
+/* #wrpper_details #wrpper_para .icons {
+  display: flex;
+} */
+
+ figure img {
+  height: 50px;
+  width: 50px;
+}
+
+ figure {
+  height: 80px;
+  padding: 10px 20px;
+  /* margin-right: 5px; */
+  border: 2px solid #ffffff;
+  background: #ffffff;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.icons_height {
+  font-size: 20px;
+}
+
+/* Tasmia */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-titillium-web: "Titillium Web";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lg: 24px;
+
+  /* Colors */
+  --color-indigo: #09114a;
+  --color-gray: #6f76a8;
+}
+
+/* --------------css----------- */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Font+Awesome+6+Brands:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-cabin: Cabin;
+  --font-titillium-web: "Titillium Web";
+  --font-font-awesome-6-brands: "Font Awesome 6 Brands";
+
+  /* font sizes */
+  --font-size-sm: 15px;
+  --font-size-base: 16px;
+  --font-size-lg: 24px;
+  --font-size-xl: 32.96px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-teal-100: #029894;
+  --color-gray-100: #6f76a8;
+  --color-indigo: #09114a;
+
+  /* border radiuses */
+  --br-md: 5px;
+}
